@@ -88,9 +88,8 @@
   ```
   - set `main` margin top and bottom to 0 and left and right to 20px
   ```
-  main {
-      margin: 0 20px;
-  }
+  
+  
   ```
   - set `p` padding top and bottom to 0 and left and right to 5px
   ```
@@ -143,9 +142,14 @@
   ```
   - style the list items so that they float left
   ```
-  .page-links li {
-    float: left;
-  }
+  p,
+    nav,
+    div,
+    a,
+    figcaption,
+    span {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
   ```
   - style the anchor tag text and alignment and remove the underlines
   ```
@@ -197,21 +201,23 @@
   
   The social links `a` tags should have black text and remove the default underline with `text-decoration: none`.  
   ```
-  .social-links a {
-      color: black;
-      text-decoration: none;
-  }
+ 
+ .social-links a {
+    color: black;
+    text-decoration: none;
+}
 
   ```
   
   On hovering the `a`'s the text should be white and hovering the `li`'s the background color should be gray.
   ```
     .social-links a:hover {
-        color: white;
-    }
-    .social-links li:hover {
-        background-color: gray;
-    }
+    color: white;
+}
+.social-links li:hover {
+    background-color: gray;
+}
+    
   ```
 
 
